@@ -129,6 +129,3 @@ To launch the complete system (AI Stream + Backend API + React Dashboard), simpl
 ```bash
 start.bat
 ```
-```bash
-start.bat
-```
