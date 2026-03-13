@@ -50,7 +50,7 @@ DEPI-Facial-Recognition-Project/
 
 - Obtain labeled facial datasets (LFW, VGGFace).
 - Analyze dataset composition, quality, and diversity.
-- Preprocess images: resize to 224×224, normalize pixel values, face detection/cropping, augmentation.
+- Preprocess images: resize to 160×160, normalize pixel values, face detection/cropping, augmentation.
 
 ### Milestone 2: Facial Recognition Model Development ✅ Completed
 
