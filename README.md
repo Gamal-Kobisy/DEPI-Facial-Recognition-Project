@@ -46,32 +46,32 @@ DEPI-Facial-Recognition-Project/
 
 ## 🎯 Milestones
 
-### Milestone 1: Data Collection, Exploration, and Preprocessing ✅ Completed
+### Milestone 1: Data Collection, Exploration, and Preprocessing
 
 - Obtain labeled facial datasets (LFW, VGGFace).
 - Analyze dataset composition, quality, and diversity.
 - Preprocess images: resize to 160×160, normalize pixel values, face detection/cropping, augmentation.
 
-### Milestone 2: Facial Recognition Model Development ✅ Completed
+### Milestone 2: Facial Recognition Model Development
 
 - Select and fine-tune a model: FaceNet, VGG-Face, DeepFace, or custom CNN.
 - Train using transfer learning.
 - Evaluate with Accuracy, Precision, Recall, F1-score, and False Acceptance Rate (FAR).
 
-### Milestone 3: Deployment and Real-Time Testing ✅ Completed
+### Milestone 3: Deployment and Real-Time Testing
 
 - Deploy the model via Flask API.
 - Build a Full-Stack architecture with React.js and Node.js.
 - Integrate with live video streams for real-time recognition.
 - Test under various conditions (lighting, angles, expressions) with Thread-Safe Sync.
 
-### Milestone 4: MLOps and Monitoring 🔄 In Progress
+### Milestone 4: MLOps and Monitoring
 
 - Set up MLflow or Kubeflow for experiment tracking.
 - Implement a retraining pipeline.
 - Monitor FAR and trigger alerts on performance degradation.
 
-### Milestone 5: Final Documentation and Presentation ⏳ Pending
+### Milestone 5: Final Documentation and Presentation
 
 - Full project report covering data, model, deployment, and monitoring.
 - Presentation of system architecture and real-world impact.
