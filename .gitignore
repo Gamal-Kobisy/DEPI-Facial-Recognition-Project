@@ -1,0 +1,31 @@
+# ==============================
+# Node.js & Frontend Dependencies
+# ==============================
+node_modules/
+web_app/backend/node_modules/
+web_app/frontend/node_modules/
+npm-debug.log
+build/
+
+# ==============================
+# Python & AI Engine Dependencies
+# ==============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.conda/
+
+# ==============================
+# Environment Variables & Secrets
+# ==============================
+.env
+
+# ==============================
+# OS Generated Files
+# ==============================
+.DS_Store
+Thumbs.db
