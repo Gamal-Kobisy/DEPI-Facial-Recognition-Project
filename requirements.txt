@@ -18,3 +18,5 @@ scikit-learn==1.3.1
 # --- MLOps & Deployment ---
 mlflow==2.8.0
 requests==2.31.0
+protobuf>=3.20,<5
+schedule>=1.2

@@ -31,3 +31,23 @@ venv/
 Thumbs.db
 
 start.bat
+
+
+# MLflow
+mlflow/mlflow.db
+mlflow/artifacts/
+mlruns/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+logs/
+
+# Virtual env
+venv/
+.env
+
+.ipynb_checkpoints/
