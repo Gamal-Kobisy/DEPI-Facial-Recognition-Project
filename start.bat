@@ -63,22 +63,4 @@ echo    🎥 AI Stream  -->  http://localhost:5001/video_feed
 echo.
 echo    🛑 Press ANY KEY in this window to STOP everything.
 echo  =========================================================
-pause >nul
-
-:: ==========================================
-:: الإغلاق الآمن لكل النوافذ
-:: ==========================================
-echo.
-echo  ⚠️ Stopping all Intelligent Shop Security services...
-taskkill /F /FI "WINDOWTITLE eq ShopSecurity_Backend*" /T >nul 2>&1
-taskkill /F /FI "WINDOWTITLE eq ShopSecurity_Camera*"  /T >nul 2>&1
-taskkill /F /FI "WINDOWTITLE eq ShopSecurity_React*"   /T >nul 2>&1
-
-:: التأكيد على إغلاق البورتات مرة أخيرة
-for /f "tokens=5" %%a in ('netstat -aon 2^>nul ^| findstr ":5000 "') do taskkill /F /PID %%a >nul 2>&1
-for /f "tokens=5" %%a in ('netstat -aon 2^>nul ^| findstr ":5001 "') do taskkill /F /PID %%a >nul 2>&1
-for /f "tokens=5" %%a in ('netstat -aon 2^>nul ^| findstr ":3000 "') do taskkill /F /PID %%a >nul 2>&1
-
-echo  ✅ Done. Goodbye!
-timeout /t 2 >nul
-exit
+pause

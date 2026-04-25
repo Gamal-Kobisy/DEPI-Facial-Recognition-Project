@@ -6,13 +6,15 @@ import LoadingScreen from "./components/LoadingScreen";
 import LiveStream from "./pages/LiveStream";
 import Blacklist from "./pages/Blacklist";
 import Dashboard from "./pages/Dashboard";
+import Visitors from "./pages/Visitors";
 
 const BACKEND_URL = "http://localhost:5000";
 const STREAM_URL  = "http://localhost:5001/video_feed";
 
 const NAV_ITEMS = [
   { id: "live",      label: "Live Stream",  Icon: Camera },
-  { id: "blacklist", label: "Blacklist",    Icon: Users },
+  { id: "visitors",  label: "Visitors",     Icon: Users },
+  { id: "blacklist", label: "Blacklist",    Icon: ShieldAlert },
   { id: "dashboard", label: "Dashboard",    Icon: BarChart3 },
 ];
 
@@ -114,6 +116,7 @@ export default function ShopSecurityApp() {
         <div className="page-header">
           <div className="page-title">
             {activeTab === "live" && "Live Stream"}
+            {activeTab === "visitors" && "Visitors Management"}
             {activeTab === "blacklist" && "Blacklist Management"}
             {activeTab === "dashboard" && "System Dashboard"}
           </div>
@@ -121,6 +124,7 @@ export default function ShopSecurityApp() {
         
         <div className="page-body">
           {activeTab === "live" && <LiveStream streamUrl={STREAM_URL} cameraOk={cameraOk} alerts={alerts} setCameraOk={setCameraOk} cameraRetry={cameraRetry} setCameraRetry={setCameraRetry} />}
+          {activeTab === "visitors" && <Visitors />}
           {activeTab === "blacklist" && <Blacklist />}
           {activeTab === "dashboard" && <Dashboard alerts={alerts} />}
         </div>

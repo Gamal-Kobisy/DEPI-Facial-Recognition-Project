@@ -1,0 +1,50 @@
+[
+  {
+    "identity": "Islam",
+    "threat_level": "High",
+    "distance_score": 0.525556636739955,
+    "type": "suspect",
+    "id": 1776983335920,
+    "timestamp": "2026-04-23T22:28:55.920Z"
+  },
+  {
+    "identity": "Islam",
+    "threat_level": "High",
+    "distance_score": 0.4535536445061038,
+    "type": "suspect",
+    "id": 1776983273286,
+    "timestamp": "2026-04-23T22:27:53.286Z"
+  },
+  {
+    "identity": "Visitor_01-24-53",
+    "threat_level": "Safe",
+    "distance_score": 0.41103334084915144,
+    "type": "old_visitor",
+    "id": 1776983262995,
+    "timestamp": "2026-04-23T22:27:42.995Z"
+  },
+  {
+    "identity": "Visitor_01-24-53",
+    "threat_level": "Safe",
+    "distance_score": 0.48151480929810087,
+    "type": "old_visitor",
+    "id": 1776983197241,
+    "timestamp": "2026-04-23T22:26:37.241Z"
+  },
+  {
+    "identity": "Visitor_01-24-53",
+    "threat_level": "Safe",
+    "distance_score": 0.5494415875840759,
+    "type": "old_visitor",
+    "id": 1776983123666,
+    "timestamp": "2026-04-23T22:25:23.666Z"
+  },
+  {
+    "identity": "Visitor_01-24-53",
+    "threat_level": "Safe",
+    "distance_score": null,
+    "type": "new_visitor",
+    "id": 1776983094030,
+    "timestamp": "2026-04-23T22:24:54.030Z"
+  }
+]
